@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* beginning and end dates of month */
+
+.rbc-off-range-bg {
+  background-color: #c7c6c6 !important; 
+}
+
+.dark .rbc-off-range-bg {
+  background-color: #626974 !important; 
+}
+
+/* buttons group */
+.rbc-btn-group{
+    background-color: #eef8ff; 
+}
+.dark .rbc-btn-group{
+    background-color: #1f2937; 
+}
+.dark .rbc-btn-group button{
+    color: #eef8ff;
+}
+/*day header */
+.rbc-header{
+      background-color: #eef8ff; 
+}
+.dark .rbc-header{
+      background-color: #1f2937; 
+}
+/* grid cells */
+.rbc-day-bg {
+  background-color: #eef8ff; 
+}
+.rbc-day-bg:hover {
+  background-color: #cce0fa; 
+  cursor: pointer;
+}
+.dark .rbc-day-bg {
+  background-color: #1f2937; 
+}
+.dark .rbc-day-bg:hover {
+  background-color: #374151; 
+  cursor: pointer;
+}
+
+
+
+/* current day */
+.rbc-today {
+  background-color: #c3e5f3 !important; 
+}
+.rbc-today:hover {
+  background-color: #9fdff8 !important; 
+}
+.dark .rbc-today {
+  background-color: #cbfdf2 !important; 
+}
+.dark .rbc-today:hover {
+  background-color: #9CA3AF !important; 
+}
+.dark .rbc-current .rbc-button-link{
+    color: #1f2937;
+}
+
+
+/*time  input  */
+input[type="time"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+
+
+
