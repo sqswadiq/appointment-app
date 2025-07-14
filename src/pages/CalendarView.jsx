@@ -179,13 +179,14 @@ export default function CalendarView() {
                           <div className="text-sm">
                             {moment(event.start).format("HH:mm")} - {event.title}
                           </div>
-                          {/* <div className="flex space-x-2 text-xs">
+                          {/* edit,delete button  */}
+                          <div className="flex space-x-2 text-xs">
                             <button
                               onClick={() => {
                                 setSelectedEvent(event);
                                 setSelectedSlot(null);
                               }}
-                              className=""
+                              className="text-teal-50 hover:text-blue-900 hover:underline"
                             >
                               Edit
                             </button>
@@ -194,11 +195,11 @@ export default function CalendarView() {
                                 setSelectedEvent(event);
                                 handleDelete();
                               }}
-                              className=" text-red-300"
+                              className=" text-red-400 hover:text-red-600 hover:underline"
                             >
                               Delete
                             </button>
-                          </div> */}
+                          </div>
                         </div>
                       ))}
                     </div>
