@@ -174,7 +174,7 @@ export default function CalendarView() {
                       {dayEvents.map(event => (
                         <div
                           key={event.id}
-                          className="flex justify-between items-center bg-teal-700 text-white px-3 py-1 rounded w-56"
+                          className="flex justify-between items-center bg-teal-700 text-white px-3 py-1 rounded w-72"
                         >
                           <div className="text-sm">
                             {moment(event.start).format("HH:mm")} - {event.title}
